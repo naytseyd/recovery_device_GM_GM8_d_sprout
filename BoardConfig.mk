@@ -77,7 +77,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_EXCLUDE_SUPERSU := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_USE_TOOLBOX := true
-TW_DEVICE_VERSION := -0 by yey59
 TW_HAS_EDL_MODE := true
 PLATFORM_SECURITY_PATCH := 2025-12-31
 ARGET_RECOVERY_QCOM_RTC_FIX := true
