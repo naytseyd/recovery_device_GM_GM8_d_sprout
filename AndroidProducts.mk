@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_GM8_d_sprout.mk
+    $(LOCAL_DIR)/omni_GM8_sprout.mk

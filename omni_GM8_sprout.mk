@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := GM8_d_sprout
+PRODUCT_RELEASE_NAME := GM8_sprout
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -46,8 +46,8 @@ PRODUCT_PACKAGES_DEBUG += \
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_GM8_d_sprout
-PRODUCT_DEVICE := GM8_d_sprout
+PRODUCT_NAME := omni_GM8_sprout
+PRODUCT_DEVICE := GM8_sprout
 PRODUCT_BRAND := GM
-PRODUCT_MODEL := GM 8 Dual
+PRODUCT_MODEL := GM 8 
 PRODUCT_MANUFACTURER := General Mobile

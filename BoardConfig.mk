@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/GM/GM8_d_sprout
+LOCAL_PATH := device/GM/GM8_sprout
 
 # Platform
 TARGET_BOARD_PLATFORM := MSM8937
@@ -92,3 +92,7 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
+# OrangeFox Configuration
+OF_DISABLE_MIUI_SPECIFIC_FEATURES := 1
+TW_DEVICE_VERSION := R9.0
+OF_MAINTAINER := yey59

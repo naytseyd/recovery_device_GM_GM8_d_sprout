@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter GM8_s_sprout GM8_d_sprout,$(TARGET_DEVICE)),)
+ifneq ($(filter GM8_s_sprout GM8_d_sprout GM8_sprout,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
